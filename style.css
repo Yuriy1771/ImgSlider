@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+}
+.slider-line img {
+    width: 600px;
+
+}
+
+.slider {
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    border: 2px solid black;
+    text-align: center;
+    max-width: 80%;
+    min-width: 600px;
+    margin: 5% auto;
+    overflow: hidden;
+}
+
+.slider-line {
+    display: flex;
+    background: orange;
+    transition: all ease-out 1s;
+}
